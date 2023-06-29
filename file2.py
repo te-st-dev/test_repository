@@ -1,4 +1,8 @@
 import tkinter as tk
+from random import randint
+
+
+
 
 def create_app():
     app = tk.Tk()
