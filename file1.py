@@ -6,4 +6,4 @@ def hello_message():
 def file_updater():
     with open("/home/client/program_logs/data.txt", "a") as file:
         formatted_datetime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%s")
-        file.write("I updated file at {formatted_datetime}\n")
+        file.write("I updated file at {}\n".format(formatted_datetime))
