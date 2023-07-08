@@ -6,10 +6,8 @@ class GraphApp:
         self.root = root
         self.root.title("NotRandom Graphs")
         
-        self.canvas = tk.Canvas(root, width=400, height=300)
-        self.canvas.pack()
-        
-        self.update_graph()
+        label = tk.Label(root, text="Your data has been compromised")
+        label.pack()
 
     def update_graph(self):
         self.canvas.delete("all")  # Clear the canvas
