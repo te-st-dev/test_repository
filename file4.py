@@ -4,7 +4,7 @@ import random
 class GraphApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("NotRandom Graphs")
+        self.root.title("Your data is compromised")
         
         self.canvas = tk.Canvas(root, width=400, height=300)
         self.canvas.pack()
